@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: aquamarine;
+    display: flex;
+}
+
+header img{
+    width: 155px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.padre p{
+    font-size: 10px;
+    text-align: center;
+}
+section{
+    width: 100%;
+    background-color: rgb(194, 194, 248);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    background-color: aqua;
+    display: flex;
+}
+
+.izquierda{
+    width: 50%;
+    background-color: blue;
+}
+
+.derecha{
+    width: 50%;
+    background-color: bisque;
+}
