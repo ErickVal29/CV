@@ -5,9 +5,11 @@
 
 }
 header{
-    background-color: aquamarine;
+    background: rgb(242,242,246);
+    background: linear-gradient(90deg, rgba(242,242,246,1) 21%, rgba(0,255,188,1) 55%, rgba(247,219,162,0.19371498599439774) 94%);
     display: flex;
 }
+
 
 header img{
     width: 155px;
@@ -21,8 +23,10 @@ header img{
 
 }
 .padre p{
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 section{
     width: 100%;
@@ -37,14 +41,18 @@ main{
 }
 
 .izquierda{
-    
     width: 50%;
-    background-color: rgb(224, 224, 236);
+    background: rgb(247,219,162);
+    background: linear-gradient(90deg, rgba(247,219,162,0.19371498599439774) 16%, rgba(0,255,188,1) 55%, rgba(242,242,246,1) 94%);
+   
 }
 
 .derecha{
+   
+
     width: 50%;
-    background-color: bisque;
+    background: rgb(242,242,246);
+    background: linear-gradient(90deg, rgba(242,242,246,1) 21%, rgba(0,255,188,1) 55%, rgba(247,219,162,0.19371498599439774) 94%);
 }
 article{
     margin-bottom: 60px;
@@ -54,8 +62,10 @@ ul{
     margin-bottom: 10px;
 }
 h2{
+    font-family: cursive;
     text-align: center;
     margin-bottom: 18px;
+    border: 2px solid #000;
 }
 
 .redes img{
@@ -64,4 +74,19 @@ h2{
 }
 .redes{
     text-align: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+    .derecha {
+        height: 90%;
+        flex-direction: column;       
+    }
+}
+
+.contacto{
+    font-size: 30px;
+    border: 2px solid #000;
+    margin: 1px;
+    background: rgb(242,242,246);
+    background: linear-gradient(90deg, rgba(242,242,246,1) 21%, rgba(0,255,188,1) 55%, rgba(247,219,162,0.19371498599439774) 94%);
 }
